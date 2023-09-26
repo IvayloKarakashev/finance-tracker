@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>ExpenseCategoriesPage</class>
+ <widget class="QWidget" name="ExpenseCategoriesPage">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -13,8 +13,16 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="verticalLayoutWidget">
+  <widget class="QWidget" name="centralwidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>566</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget" native="true">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -23,22 +31,6 @@
       <height>391</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QPushButton" name="dashboardButton">
-       <property name="text">
-        <string>Dashboard</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="expenseCategoriesButton">
-       <property name="text">
-        <string>Expense Categories</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
    </widget>
    <widget class="QLabel" name="balanceLabel">
     <property name="geometry">
@@ -87,7 +79,16 @@
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
